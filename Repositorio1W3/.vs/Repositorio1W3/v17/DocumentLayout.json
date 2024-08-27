@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\Repositorio1W3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3822CAE-7398-4385-8721-1B69BCFF9474}|Repositorio1W3.csproj|c:\\users\\usuario\\source\\repos\\repositorio1w3\\dominio\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3822CAE-7398-4385-8721-1B69BCFF9474}|Repositorio1W3.csproj|solutionrelative:dominio\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3822CAE-7398-4385-8721-1B69BCFF9474}|Repositorio1W3.csproj|c:\\users\\usuario\\source\\repos\\repositorio1w3\\servicios\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3822CAE-7398-4385-8721-1B69BCFF9474}|Repositorio1W3.csproj|solutionrelative:servicios\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3822CAE-7398-4385-8721-1B69BCFF9474}|Repositorio1W3.csproj|c:\\users\\usuario\\source\\repos\\repositorio1w3\\datos\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3822CAE-7398-4385-8721-1B69BCFF9474}|Repositorio1W3.csproj|solutionrelative:datos\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3822CAE-7398-4385-8721-1B69BCFF9474}|Repositorio1W3.csproj|c:\\users\\usuario\\source\\repos\\repositorio1w3\\datos\\productrepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3822CAE-7398-4385-8721-1B69BCFF9474}|Repositorio1W3.csproj|solutionrelative:datos\\productrepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3822CAE-7398-4385-8721-1B69BCFF9474}|Repositorio1W3.csproj|c:\\users\\usuario\\source\\repos\\repositorio1w3\\datos\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3822CAE-7398-4385-8721-1B69BCFF9474}|Repositorio1W3.csproj|solutionrelative:datos\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3822CAE-7398-4385-8721-1B69BCFF9474}|Repositorio1W3.csproj|c:\\users\\usuario\\source\\repos\\repositorio1w3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3822CAE-7398-4385-8721-1B69BCFF9474}|Repositorio1W3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Repositorio1W3\\Dominio\\Producto.cs",
+              "RelativeDocumentMoniker": "Dominio\\Producto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Repositorio1W3\\Dominio\\Producto.cs",
+              "RelativeToolTip": "Dominio\\Producto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T16:36:22.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductServices.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Repositorio1W3\\Servicios\\ProductServices.cs",
+              "RelativeDocumentMoniker": "Servicios\\ProductServices.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Repositorio1W3\\Servicios\\ProductServices.cs",
+              "RelativeToolTip": "Servicios\\ProductServices.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T00:39:04.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Repositorio1W3\\Datos\\DataHelper.cs",
+              "RelativeDocumentMoniker": "Datos\\DataHelper.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Repositorio1W3\\Datos\\DataHelper.cs",
+              "RelativeToolTip": "Datos\\DataHelper.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAiwDAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T00:33:30.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductRepositoryADO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Repositorio1W3\\Datos\\ProductRepositoryADO.cs",
+              "RelativeDocumentMoniker": "Datos\\ProductRepositoryADO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Repositorio1W3\\Datos\\ProductRepositoryADO.cs",
+              "RelativeToolTip": "Datos\\ProductRepositoryADO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T00:32:45.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Repositorio1W3\\Datos\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Datos\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Repositorio1W3\\Datos\\IProductRepository.cs",
+              "RelativeToolTip": "Datos\\IProductRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T00:31:48.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Repositorio1W3\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Repositorio1W3\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T00:22:13.97Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

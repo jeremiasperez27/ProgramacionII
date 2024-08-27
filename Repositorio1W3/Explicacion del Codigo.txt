@@ -1,0 +1,175 @@
+Producto.cs
+
+// Define la clase 'Producto' que representa un producto en el sistema
+public class Producto
+{
+    // Propiedad pública para almacenar el código del producto
+    public int Codigo { get; set; }
+
+    // Propiedad pública para almacenar el nombre del producto
+    public string Nombre { get; set; }
+
+    // Propiedad pública para almacenar el precio del producto
+    public double Precio { get; set; }
+
+    // Propiedad pública para almacenar la cantidad de stock disponible del producto
+    public int Stock { get; set; }
+
+    // Propiedad pública para indicar si el producto está activo o no
+    public bool Activo { get; set; }
+
+    // Método sobrescrito que devuelve una representación en cadena del objeto 'Producto'
+    public override string ToString()
+    {
+        // Devuelve una cadena que combina el código y el nombre del producto, separados por un guion
+        return Codigo + "-" + Nombre;
+    }
+}
+
+
+ProductRepository.cs
+
+// Define una interfaz pública llamada 'ProductoRepositoryADO'
+public interface ProductoRepositoryADO
+{
+    // Método para obtener una lista de todos los productos
+    List<Producto> GetAll();
+
+    // Método para obtener un producto específico basado en su identificador (ID)
+    Producto GetById(int id);
+
+    // Método para guardar un producto; devuelve 'true' si la operación fue exitosa
+    bool Guardar(Producto producto);
+
+    // Método para borrar un producto basado en su identificador (ID); devuelve 'true' si la operación fue exitosa
+    bool Borrar(int id);
+}
+
+ProductRepositoryADO.cs
+
+// Método público que devuelve una lista de objetos 'Producto'
+public List<Producto> GetAll()
+{
+    // Crea una nueva lista de objetos 'Producto' que se usará para almacenar los productos recuperados
+    List<Producto> lista = new List<Producto>();
+
+    // Ejecuta un procedimiento almacenado llamado "SP_Recuperar_Productos" y obtiene una tabla de datos
+    var tabla = DataHelper.GetInstance().EjecutarSPQuery("SP_Recuperar_Productos");
+
+    // Recorre cada fila de la tabla de datos recuperada
+    foreach (DataRow row in tabla.Rows)
+    {
+        // Crea un nuevo objeto 'Producto'
+        Producto p = new Producto();
+        
+        // Asigna el valor del campo "codigo" de la fila actual al atributo 'Codigo' del objeto 'Producto'
+        p.Codigo = (int)row["codigo"];
+        
+        // Asigna el valor del campo "n_producto" de la fila actual al atributo 'Nombre' del objeto 'Producto'
+        p.Nombre = row["n_producto"].ToString();
+        
+        // Asigna el valor del campo "precio" de la fila actual al atributo 'Precio' del objeto 'Producto'
+        p.Precio = (double)row["precio"];
+        
+        // Asigna el valor del campo "stock" de la fila actual al atributo 'Stock' del objeto 'Producto'
+        p.Stock = (int)row["stock"];
+        
+        // Asigna el valor del campo "esta_activo" de la fila actual al atributo 'Activo' del objeto 'Producto'
+        p.Activo = (bool)row["esta_activo"];
+
+        // Añade el objeto 'Producto' a la lista de productos
+        lista.Add(p);
+    }
+    
+    // Devuelve la lista de productos
+    return lista;
+}
+
+DatHelper.cs
+
+// Define la clase 'DataHelper' que gestiona la conexión a la base de datos
+public class DataHelper
+{
+    // Campo privado estático para almacenar la única instancia de 'DataHelper'
+    private static DataHelper _instance;
+
+    // Campo privado para la conexión a la base de datos
+    private SqlConnection _connection;
+
+    // Constructor privado para evitar que se creen instancias fuera de la clase
+    private DataHelper()
+    {
+        // Inicializa la conexión con la cadena de conexión obtenida desde los recursos del proyecto
+        _connection = new SqlConnection(Properties.Resources.StrConexion);
+    }
+
+    // Método estático que devuelve la única instancia de 'DataHelper' (patrón Singleton)
+    public static DataHelper GetInstance()
+    {
+        // Si la instancia no ha sido creada, se crea una nueva
+        if (_instance == null)
+        {
+            _instance = new DataHelper();
+        }
+        // Devuelve la instancia única de 'DataHelper'
+        return _instance;
+    }
+
+    // Método público para ejecutar un procedimiento almacenado y devolver el resultado en un DataTable
+    public DataTable EjecutarSPQuery(string sp)
+    {
+        // Crea un nuevo DataTable para almacenar los resultados
+        DataTable tabla = new DataTable();
+
+        try
+        {
+            // Abre la conexión a la base de datos
+            _connection.Open();
+
+            // Crea un nuevo SqlCommand para ejecutar el procedimiento almacenado
+            var comando = new SqlCommand(sp, _connection);
+            // Configura el comando para que ejecute un procedimiento almacenado
+            comando.CommandType = CommandType.StoredProcedure;
+            // Carga los resultados del comando en el DataTable
+            tabla.Load(comando.ExecuteReader());
+
+            // Cierra la conexión a la base de datos
+            _connection.Close();
+        }
+        catch (SqlException)
+        {
+            // En caso de error en la ejecución del SQL, asigna 'null' a la tabla
+            // Aquí se puede gestionar el error, como registrar el problema o notificar al usuario
+            tabla = null;
+        }
+        // Devuelve el DataTable con los resultados del procedimiento almacenado
+        return tabla;
+    }
+}
+
+ProductServices.cs
+
+// Define la clase 'ProductServices' que gestiona los servicios relacionados con productos
+public class ProductServices
+{
+    // Campo privado para almacenar una instancia del repositorio de productos
+    private ProductoRepositoryADO _repository;
+
+    // Constructor de la clase 'ProductServices'
+    public ProductServices()
+    {
+        // Inicializa el campo '_repository' con una nueva instancia de 'ProductRepositoryADO'
+        _repository = new ProductRepositoryADO();
+    }
+
+    // Método público para obtener una lista de productos
+    public List<Producto> GetProductos()
+    {
+        // Llama al método 'GetAll()' del repositorio para recuperar todos los productos
+        // y devuelve la lista de productos
+        return _repository.GetAll();
+    }
+}
+
+
+
