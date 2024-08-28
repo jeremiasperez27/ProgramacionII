@@ -1,0 +1,14 @@
+﻿using BancoApp.Dominio;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BancoApp.Datos
+{
+    public interface ITipoCuentasRepository
+    {
+        List<TipoCuenta> GetAll();  
+    }
+}
