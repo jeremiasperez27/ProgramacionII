@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Programacion\\Actividad1.5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3641EB49-5772-40F0-8DB9-1A2744C55E67}|Actividad1.5.csproj|c:\\users\\usuario\\programacion\\actividad1.5\\testing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3641EB49-5772-40F0-8DB9-1A2744C55E67}|Actividad1.5.csproj|solutionrelative:testing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3641EB49-5772-40F0-8DB9-1A2744C55E67}|Actividad1.5.csproj|c:\\users\\usuario\\programacion\\actividad1.5\\servicios\\facturacionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3641EB49-5772-40F0-8DB9-1A2744C55E67}|Actividad1.5.csproj|solutionrelative:servicios\\facturacionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3641EB49-5772-40F0-8DB9-1A2744C55E67}|Actividad1.5.csproj|c:\\users\\usuario\\programacion\\actividad1.5\\repositorios\\implementaciones\\facturarepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3641EB49-5772-40F0-8DB9-1A2744C55E67}|Actividad1.5.csproj|solutionrelative:repositorios\\implementaciones\\facturarepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3641EB49-5772-40F0-8DB9-1A2744C55E67}|Actividad1.5.csproj|c:\\users\\usuario\\programacion\\actividad1.5\\repositorios\\implementaciones\\detallerepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3641EB49-5772-40F0-8DB9-1A2744C55E67}|Actividad1.5.csproj|solutionrelative:repositorios\\implementaciones\\detallerepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3641EB49-5772-40F0-8DB9-1A2744C55E67}|Actividad1.5.csproj|c:\\users\\usuario\\programacion\\actividad1.5\\repositorios\\contratos\\idetallerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3641EB49-5772-40F0-8DB9-1A2744C55E67}|Actividad1.5.csproj|solutionrelative:repositorios\\contratos\\idetallerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3641EB49-5772-40F0-8DB9-1A2744C55E67}|Actividad1.5.csproj|c:\\users\\usuario\\programacion\\actividad1.5\\repositorios\\contratos\\ifacturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3641EB49-5772-40F0-8DB9-1A2744C55E67}|Actividad1.5.csproj|solutionrelative:repositorios\\contratos\\ifacturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IFacturaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Programacion\\Actividad1.5\\Repositorios\\Contratos\\IFacturaRepository.cs",
+              "RelativeDocumentMoniker": "Repositorios\\Contratos\\IFacturaRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Programacion\\Actividad1.5\\Repositorios\\Contratos\\IFacturaRepository.cs",
+              "RelativeToolTip": "Repositorios\\Contratos\\IFacturaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T23:09:41.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DetalleRepositoryADO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Programacion\\Actividad1.5\\Repositorios\\Implementaciones\\DetalleRepositoryADO.cs",
+              "RelativeDocumentMoniker": "Repositorios\\Implementaciones\\DetalleRepositoryADO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Programacion\\Actividad1.5\\Repositorios\\Implementaciones\\DetalleRepositoryADO.cs",
+              "RelativeToolTip": "Repositorios\\Implementaciones\\DetalleRepositoryADO.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAADEAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T23:03:01.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDetalleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Programacion\\Actividad1.5\\Repositorios\\Contratos\\IDetalleRepository.cs",
+              "RelativeDocumentMoniker": "Repositorios\\Contratos\\IDetalleRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Programacion\\Actividad1.5\\Repositorios\\Contratos\\IDetalleRepository.cs",
+              "RelativeToolTip": "Repositorios\\Contratos\\IDetalleRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T23:02:15.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FacturaRepositoryADO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Programacion\\Actividad1.5\\Repositorios\\Implementaciones\\FacturaRepositoryADO.cs",
+              "RelativeDocumentMoniker": "Repositorios\\Implementaciones\\FacturaRepositoryADO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Programacion\\Actividad1.5\\Repositorios\\Implementaciones\\FacturaRepositoryADO.cs",
+              "RelativeToolTip": "Repositorios\\Implementaciones\\FacturaRepositoryADO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T22:58:02.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FacturacionManager.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Programacion\\Actividad1.5\\Servicios\\FacturacionManager.cs",
+              "RelativeDocumentMoniker": "Servicios\\FacturacionManager.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Programacion\\Actividad1.5\\Servicios\\FacturacionManager.cs",
+              "RelativeToolTip": "Servicios\\FacturacionManager.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T22:16:53.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Programacion\\Actividad1.5\\Testing\\Program.cs",
+              "RelativeDocumentMoniker": "Testing\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Programacion\\Actividad1.5\\Testing\\Program.cs",
+              "RelativeToolTip": "Testing\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T21:57:16.242Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
