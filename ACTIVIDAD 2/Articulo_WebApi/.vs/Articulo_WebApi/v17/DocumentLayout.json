@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D204C14E-E11B-4B53-B629-B118B7C01595}|Articulo_WebApi.csproj|c:\\users\\usuario\\programacion\\articulo_webapi\\data\\articulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D204C14E-E11B-4B53-B629-B118B7C01595}|Articulo_WebApi.csproj|solutionrelative:data\\articulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D204C14E-E11B-4B53-B629-B118B7C01595}|Articulo_WebApi.csproj|c:\\users\\usuario\\programacion\\articulo_webapi\\services\\articuloservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D204C14E-E11B-4B53-B629-B118B7C01595}|Articulo_WebApi.csproj|solutionrelative:services\\articuloservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D204C14E-E11B-4B53-B629-B118B7C01595}|Articulo_WebApi.csproj|c:\\users\\usuario\\programacion\\articulo_webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D204C14E-E11B-4B53-B629-B118B7C01595}|Articulo_WebApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D204C14E-E11B-4B53-B629-B118B7C01595}|Articulo_WebApi.csproj|c:\\users\\usuario\\programacion\\articulo_webapi\\utilities\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D204C14E-E11B-4B53-B629-B118B7C01595}|Articulo_WebApi.csproj|solutionrelative:utilities\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D204C14E-E11B-4B53-B629-B118B7C01595}|Articulo_WebApi.csproj|c:\\users\\usuario\\programacion\\articulo_webapi\\utilities\\parametersql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D204C14E-E11B-4B53-B629-B118B7C01595}|Articulo_WebApi.csproj|solutionrelative:utilities\\parametersql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D204C14E-E11B-4B53-B629-B118B7C01595}|Articulo_WebApi.csproj|c:\\users\\usuario\\programacion\\articulo_webapi\\controllers\\ordenproduccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D204C14E-E11B-4B53-B629-B118B7C01595}|Articulo_WebApi.csproj|solutionrelative:controllers\\ordenproduccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D204C14E-E11B-4B53-B629-B118B7C01595}|Articulo_WebApi.csproj|c:\\users\\usuario\\programacion\\articulo_webapi\\services\\iarticuloservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D204C14E-E11B-4B53-B629-B118B7C01595}|Articulo_WebApi.csproj|solutionrelative:services\\iarticuloservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D204C14E-E11B-4B53-B629-B118B7C01595}|Articulo_WebApi.csproj|c:\\users\\usuario\\programacion\\articulo_webapi\\data\\iarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D204C14E-E11B-4B53-B629-B118B7C01595}|Articulo_WebApi.csproj|solutionrelative:data\\iarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D204C14E-E11B-4B53-B629-B118B7C01595}|Articulo_WebApi.csproj|c:\\users\\usuario\\programacion\\articulo_webapi\\entities\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D204C14E-E11B-4B53-B629-B118B7C01595}|Articulo_WebApi.csproj|solutionrelative:entities\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrdenProduccionController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\Controllers\\OrdenProduccionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdenProduccionController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\Controllers\\OrdenProduccionController.cs",
+              "RelativeToolTip": "Controllers\\OrdenProduccionController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAACAAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T23:20:31.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IArticuloServices.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\Services\\IArticuloServices.cs",
+              "RelativeDocumentMoniker": "Services\\IArticuloServices.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\Services\\IArticuloServices.cs",
+              "RelativeToolTip": "Services\\IArticuloServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T23:03:20.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArticuloServices.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\Services\\ArticuloServices.cs",
+              "RelativeDocumentMoniker": "Services\\ArticuloServices.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\Services\\ArticuloServices.cs",
+              "RelativeToolTip": "Services\\ArticuloServices.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAABkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T23:02:09.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T22:58:42.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ParameterSQL.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\Utilities\\ParameterSQL.cs",
+              "RelativeDocumentMoniker": "Utilities\\ParameterSQL.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\Utilities\\ParameterSQL.cs",
+              "RelativeToolTip": "Utilities\\ParameterSQL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T22:55:33.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\Utilities\\DataHelper.cs",
+              "RelativeDocumentMoniker": "Utilities\\DataHelper.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\Utilities\\DataHelper.cs",
+              "RelativeToolTip": "Utilities\\DataHelper.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowAwAAACNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T22:54:47.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\Entities\\Articulo.cs",
+              "RelativeDocumentMoniker": "Entities\\Articulo.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\Entities\\Articulo.cs",
+              "RelativeToolTip": "Entities\\Articulo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T22:54:41.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\Data\\IArticuloRepository.cs",
+              "RelativeDocumentMoniker": "Data\\IArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\Data\\IArticuloRepository.cs",
+              "RelativeToolTip": "Data\\IArticuloRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T22:53:50.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\Data\\ArticuloRepository.cs",
+              "RelativeDocumentMoniker": "Data\\ArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\Data\\ArticuloRepository.cs",
+              "RelativeToolTip": "Data\\ArticuloRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T22:51:36.45Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
