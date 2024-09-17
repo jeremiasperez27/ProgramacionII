@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\Articulo_WebApi.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\PrograII\\ProgramacionII\\ACTIVIDAD 2\\Articulo_WebApi\\Articulo_WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\Articulo_WebApi.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\PrograII\\ProgramacionII\\ACTIVIDAD 2\\Articulo_WebApi\\Articulo_WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\Articulo_WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\PrograII\\ProgramacionII\\ACTIVIDAD 2\\Articulo_WebApi\\Articulo_WebApi.csproj",
         "projectName": "Articulo_WebApi",
-        "projectPath": "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\Articulo_WebApi.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\PrograII\\ProgramacionII\\ACTIVIDAD 2\\Articulo_WebApi\\Articulo_WebApi.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Programacion\\Articulo_WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\PrograII\\ProgramacionII\\ACTIVIDAD 2\\Articulo_WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
